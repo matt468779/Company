@@ -68,5 +68,13 @@ namespace Company.Forms
         {
 
         }
+
+        private void materialIssueToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form materialIssueForm = new FormMaterialIssue();
+            materialIssueForm.MdiParent = this;
+            materialIssueForm.Text = "Material Issue";
+            materialIssueForm.Show();
+        }
     }
 }

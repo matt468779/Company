@@ -28,9 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // Dashboard
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(290, 278);
+            this.Name = "Dashboard";
+            this.Style.MdiChild.IconHorizontalAlignment = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Style.MdiChild.IconVerticalAlignment = System.Windows.Forms.VisualStyles.VerticalAlignment.Center;
             this.Text = "Dashboard";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.ResumeLayout(false);
+
         }
 
         #endregion
