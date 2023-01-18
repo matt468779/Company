@@ -34,12 +34,15 @@
             this.label7 = new System.Windows.Forms.Label();
             this.comboBoxApprovedBy = new Syncfusion.WinForms.ListView.SfComboBox();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.sfComboBox1 = new Syncfusion.WinForms.ListView.SfComboBox();
+            this.label8 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.comboBoxRequestedBy = new Syncfusion.WinForms.ListView.SfComboBox();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.sfDataGrid1 = new Syncfusion.WinForms.DataGrid.SfDataGrid();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+            this.panel8 = new System.Windows.Forms.Panel();
             this.sfDateTimeEdit1 = new Syncfusion.WinForms.Input.SfDateTimeEdit();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -54,17 +57,16 @@
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.label8 = new System.Windows.Forms.Label();
-            this.sfComboBox1 = new Syncfusion.WinForms.ListView.SfComboBox();
             this.panel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxApprovedBy)).BeginInit();
             this.panel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.sfComboBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxRequestedBy)).BeginInit();
             this.panel5.SuspendLayout();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.sfDataGrid1)).BeginInit();
             this.tableLayoutPanel3.SuspendLayout();
+            this.panel8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxTo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxFrom)).BeginInit();
             this.panel2.SuspendLayout();
@@ -72,8 +74,6 @@
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
-            this.panel8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.sfComboBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // sfButton1
@@ -83,7 +83,7 @@
             this.sfButton1.BackColor = System.Drawing.Color.DarkGreen;
             this.sfButton1.Font = new System.Drawing.Font("Segoe UI Semibold", 9F);
             this.sfButton1.ForeColor = System.Drawing.Color.White;
-            this.sfButton1.Location = new System.Drawing.Point(1268, 5);
+            this.sfButton1.Location = new System.Drawing.Point(1310, 5);
             this.sfButton1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.sfButton1.Name = "sfButton1";
             this.sfButton1.Size = new System.Drawing.Size(144, 43);
@@ -100,10 +100,10 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel7.Controls.Add(this.sfButton2);
             this.panel7.Controls.Add(this.sfButton1);
-            this.panel7.Location = new System.Drawing.Point(4, 799);
+            this.panel7.Location = new System.Drawing.Point(4, 918);
             this.panel7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(1515, 65);
+            this.panel7.Size = new System.Drawing.Size(1557, 65);
             this.panel7.TabIndex = 5;
             // 
             // sfButton2
@@ -126,7 +126,7 @@
             // 
             this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(20, 22);
+            this.label7.Location = new System.Drawing.Point(32, 22);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(97, 20);
@@ -137,7 +137,7 @@
             // 
             this.comboBoxApprovedBy.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.comboBoxApprovedBy.DropDownPosition = Syncfusion.WinForms.Core.Enums.PopupRelativeAlignment.Center;
-            this.comboBoxApprovedBy.Location = new System.Drawing.Point(125, 7);
+            this.comboBoxApprovedBy.Location = new System.Drawing.Point(137, 7);
             this.comboBoxApprovedBy.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.comboBoxApprovedBy.Name = "comboBoxApprovedBy";
             this.comboBoxApprovedBy.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
@@ -153,11 +153,32 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel6.Controls.Add(this.sfComboBox1);
             this.panel6.Controls.Add(this.label8);
-            this.panel6.Location = new System.Drawing.Point(572, 5);
+            this.panel6.Location = new System.Drawing.Point(587, 5);
             this.panel6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(560, 60);
+            this.panel6.Size = new System.Drawing.Size(575, 60);
             this.panel6.TabIndex = 1;
+            // 
+            // sfComboBox1
+            // 
+            this.sfComboBox1.DropDownPosition = Syncfusion.WinForms.Core.Enums.PopupRelativeAlignment.Center;
+            this.sfComboBox1.Location = new System.Drawing.Point(179, 5);
+            this.sfComboBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.sfComboBox1.Name = "sfComboBox1";
+            this.sfComboBox1.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.sfComboBox1.Size = new System.Drawing.Size(270, 43);
+            this.sfComboBox1.Style.TokenStyle.CloseButtonBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.sfComboBox1.TabIndex = 2;
+            this.sfComboBox1.TabStop = false;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(68, 20);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(95, 20);
+            this.label8.TabIndex = 0;
+            this.label8.Text = "Recieved by";
             // 
             // label6
             // 
@@ -191,7 +212,7 @@
             this.panel5.Location = new System.Drawing.Point(4, 5);
             this.panel5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(560, 60);
+            this.panel5.Size = new System.Drawing.Size(575, 60);
             this.panel5.TabIndex = 0;
             // 
             // panel4
@@ -204,7 +225,7 @@
             this.panel4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel4.Name = "panel4";
             this.panel4.Padding = new System.Windows.Forms.Padding(30, 0, 30, 0);
-            this.panel4.Size = new System.Drawing.Size(1515, 508);
+            this.panel4.Size = new System.Drawing.Size(1557, 627);
             this.panel4.TabIndex = 3;
             // 
             // sfDataGrid1
@@ -223,7 +244,7 @@
             this.sfDataGrid1.Padding = new System.Windows.Forms.Padding(30, 0, 30, 0);
             this.sfDataGrid1.PreviewRowHeight = 42;
             this.sfDataGrid1.ShowRowHeader = true;
-            this.sfDataGrid1.Size = new System.Drawing.Size(1455, 508);
+            this.sfDataGrid1.Size = new System.Drawing.Size(1497, 627);
             this.sfDataGrid1.Style.AddNewRowStyle.BackColor = System.Drawing.Color.MintCream;
             this.sfDataGrid1.Style.AddNewRowStyle.TextColor = System.Drawing.Color.Black;
             this.sfDataGrid1.Style.HeaderStyle.FilterIconColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
@@ -242,13 +263,23 @@
             this.tableLayoutPanel3.Controls.Add(this.panel5, 0, 0);
             this.tableLayoutPanel3.Controls.Add(this.panel6, 1, 0);
             this.tableLayoutPanel3.Controls.Add(this.panel8, 2, 0);
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(4, 719);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(4, 838);
             this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 1;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(1515, 70);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(1557, 70);
             this.tableLayoutPanel3.TabIndex = 4;
+            // 
+            // panel8
+            // 
+            this.panel8.Controls.Add(this.label7);
+            this.panel8.Controls.Add(this.comboBoxApprovedBy);
+            this.panel8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel8.Location = new System.Drawing.Point(1169, 3);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(385, 64);
+            this.panel8.TabIndex = 2;
             // 
             // sfDateTimeEdit1
             // 
@@ -348,7 +379,7 @@
             this.panel2.Location = new System.Drawing.Point(4, 5);
             this.panel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(749, 118);
+            this.panel2.Size = new System.Drawing.Size(770, 118);
             this.panel2.TabIndex = 0;
             // 
             // tableLayoutPanel2
@@ -364,7 +395,7 @@
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(1515, 128);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(1557, 128);
             this.tableLayoutPanel2.TabIndex = 1;
             // 
             // panel3
@@ -374,7 +405,7 @@
             this.panel3.Controls.Add(this.label3);
             this.panel3.Controls.Add(this.label2);
             this.panel3.Controls.Add(this.textBox1);
-            this.panel3.Location = new System.Drawing.Point(761, 5);
+            this.panel3.Location = new System.Drawing.Point(782, 5);
             this.panel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel3.MinimumSize = new System.Drawing.Size(375, 0);
             this.panel3.Name = "panel3";
@@ -388,7 +419,7 @@
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(1515, 48);
+            this.label1.Size = new System.Drawing.Size(1557, 48);
             this.label1.TabIndex = 0;
             this.label1.Text = "Material Issue Voucher";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -402,7 +433,7 @@
             this.panel1.Location = new System.Drawing.Point(4, 5);
             this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1515, 48);
+            this.panel1.Size = new System.Drawing.Size(1557, 48);
             this.panel1.TabIndex = 0;
             // 
             // tableLayoutPanel1
@@ -425,45 +456,14 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 80F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 75F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 31F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1523, 869);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1565, 988);
             this.tableLayoutPanel1.TabIndex = 1;
-            // 
-            // panel8
-            // 
-            this.panel8.Controls.Add(this.label7);
-            this.panel8.Controls.Add(this.comboBoxApprovedBy);
-            this.panel8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel8.Location = new System.Drawing.Point(1139, 3);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(373, 64);
-            this.panel8.TabIndex = 2;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(68, 20);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(95, 20);
-            this.label8.TabIndex = 0;
-            this.label8.Text = "Recieved by";
-            // 
-            // sfComboBox1
-            // 
-            this.sfComboBox1.DropDownPosition = Syncfusion.WinForms.Core.Enums.PopupRelativeAlignment.Center;
-            this.sfComboBox1.Location = new System.Drawing.Point(179, 5);
-            this.sfComboBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.sfComboBox1.Name = "sfComboBox1";
-            this.sfComboBox1.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.sfComboBox1.Size = new System.Drawing.Size(270, 43);
-            this.sfComboBox1.Style.TokenStyle.CloseButtonBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.sfComboBox1.TabIndex = 2;
-            this.sfComboBox1.TabStop = false;
             // 
             // FormMaterialIssue
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1527, 873);
+            this.ClientSize = new System.Drawing.Size(1569, 992);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "FormMaterialIssue";
             this.Style.MdiChild.IconHorizontalAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -473,12 +473,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxApprovedBy)).EndInit();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.sfComboBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxRequestedBy)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
             this.panel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.sfDataGrid1)).EndInit();
             this.tableLayoutPanel3.ResumeLayout(false);
+            this.panel8.ResumeLayout(false);
+            this.panel8.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxTo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxFrom)).EndInit();
             this.panel2.ResumeLayout(false);
@@ -488,9 +491,6 @@
             this.panel3.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
-            this.panel8.ResumeLayout(false);
-            this.panel8.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.sfComboBox1)).EndInit();
             this.ResumeLayout(false);
 
         }

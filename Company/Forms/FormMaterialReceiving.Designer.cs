@@ -91,7 +91,7 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 80F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 75F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 31F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1498, 920);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1546, 1056);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // panel1
@@ -103,7 +103,7 @@
             this.panel1.Location = new System.Drawing.Point(4, 5);
             this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1490, 48);
+            this.panel1.Size = new System.Drawing.Size(1538, 48);
             this.panel1.TabIndex = 0;
             // 
             // label1
@@ -113,7 +113,7 @@
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(1490, 48);
+            this.label1.Size = new System.Drawing.Size(1538, 48);
             this.label1.TabIndex = 0;
             this.label1.Text = "Material Receiving";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -132,7 +132,7 @@
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(1490, 128);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(1538, 128);
             this.tableLayoutPanel2.TabIndex = 1;
             // 
             // panel2
@@ -148,7 +148,7 @@
             this.panel2.Location = new System.Drawing.Point(4, 5);
             this.panel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(737, 118);
+            this.panel2.Size = new System.Drawing.Size(761, 118);
             this.panel2.TabIndex = 0;
             // 
             // label5
@@ -202,7 +202,7 @@
             this.panel3.Controls.Add(this.label3);
             this.panel3.Controls.Add(this.label2);
             this.panel3.Controls.Add(this.textBox1);
-            this.panel3.Location = new System.Drawing.Point(749, 5);
+            this.panel3.Location = new System.Drawing.Point(773, 5);
             this.panel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel3.MinimumSize = new System.Drawing.Size(375, 0);
             this.panel3.Name = "panel3";
@@ -261,7 +261,7 @@
             this.panel4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel4.Name = "panel4";
             this.panel4.Padding = new System.Windows.Forms.Padding(30, 0, 30, 0);
-            this.panel4.Size = new System.Drawing.Size(1490, 559);
+            this.panel4.Size = new System.Drawing.Size(1538, 695);
             this.panel4.TabIndex = 3;
             // 
             // sfDataGrid1
@@ -280,7 +280,7 @@
             this.sfDataGrid1.Padding = new System.Windows.Forms.Padding(30, 0, 30, 0);
             this.sfDataGrid1.PreviewRowHeight = 42;
             this.sfDataGrid1.ShowRowHeader = true;
-            this.sfDataGrid1.Size = new System.Drawing.Size(1430, 559);
+            this.sfDataGrid1.Size = new System.Drawing.Size(1478, 695);
             this.sfDataGrid1.Style.AddNewRowStyle.BackColor = System.Drawing.Color.MintCream;
             this.sfDataGrid1.Style.AddNewRowStyle.TextColor = System.Drawing.Color.Black;
             this.sfDataGrid1.Style.HeaderStyle.FilterIconColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
@@ -297,12 +297,12 @@
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel3.Controls.Add(this.panel5, 0, 0);
             this.tableLayoutPanel3.Controls.Add(this.panel6, 1, 0);
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(4, 770);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(4, 906);
             this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 1;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(1490, 70);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(1538, 70);
             this.tableLayoutPanel3.TabIndex = 4;
             // 
             // panel5
@@ -315,7 +315,7 @@
             this.panel5.Location = new System.Drawing.Point(4, 5);
             this.panel5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(737, 60);
+            this.panel5.Size = new System.Drawing.Size(761, 60);
             this.panel5.TabIndex = 0;
             // 
             // label6
@@ -347,17 +347,17 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel6.Controls.Add(this.label7);
             this.panel6.Controls.Add(this.comboBoxApprovedBy);
-            this.panel6.Location = new System.Drawing.Point(749, 5);
+            this.panel6.Location = new System.Drawing.Point(773, 5);
             this.panel6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(737, 60);
+            this.panel6.Size = new System.Drawing.Size(761, 60);
             this.panel6.TabIndex = 1;
             // 
             // label7
             // 
             this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(288, 20);
+            this.label7.Location = new System.Drawing.Point(306, 20);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(97, 20);
@@ -368,7 +368,7 @@
             // 
             this.comboBoxApprovedBy.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.comboBoxApprovedBy.DropDownPosition = Syncfusion.WinForms.Core.Enums.PopupRelativeAlignment.Center;
-            this.comboBoxApprovedBy.Location = new System.Drawing.Point(398, 5);
+            this.comboBoxApprovedBy.Location = new System.Drawing.Point(416, 5);
             this.comboBoxApprovedBy.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.comboBoxApprovedBy.Name = "comboBoxApprovedBy";
             this.comboBoxApprovedBy.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
@@ -384,10 +384,10 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel7.Controls.Add(this.sfButton2);
             this.panel7.Controls.Add(this.sfButton1);
-            this.panel7.Location = new System.Drawing.Point(4, 850);
+            this.panel7.Location = new System.Drawing.Point(4, 986);
             this.panel7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(1490, 65);
+            this.panel7.Size = new System.Drawing.Size(1538, 65);
             this.panel7.TabIndex = 5;
             // 
             // sfButton2
@@ -396,7 +396,7 @@
             this.sfButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.sfButton2.Font = new System.Drawing.Font("Segoe UI Semibold", 9F);
             this.sfButton2.ForeColor = System.Drawing.Color.White;
-            this.sfButton2.Location = new System.Drawing.Point(990, 5);
+            this.sfButton2.Location = new System.Drawing.Point(992, 17);
             this.sfButton2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.sfButton2.Name = "sfButton2";
             this.sfButton2.Size = new System.Drawing.Size(144, 43);
@@ -413,7 +413,7 @@
             this.sfButton1.BackColor = System.Drawing.Color.DarkGreen;
             this.sfButton1.Font = new System.Drawing.Font("Segoe UI Semibold", 9F);
             this.sfButton1.ForeColor = System.Drawing.Color.White;
-            this.sfButton1.Location = new System.Drawing.Point(1243, 5);
+            this.sfButton1.Location = new System.Drawing.Point(115, 17);
             this.sfButton1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.sfButton1.Name = "sfButton1";
             this.sfButton1.Size = new System.Drawing.Size(144, 43);
@@ -428,7 +428,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1502, 924);
+            this.ClientSize = new System.Drawing.Size(1550, 1060);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FormMaterialReceiving";

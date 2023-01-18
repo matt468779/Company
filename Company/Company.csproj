@@ -188,11 +188,23 @@
     <Compile Include="Forms\Dashboard.Designer.cs">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\FormMaterialIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormMaterialIn.Designer.cs">
+      <DependentUpon>FormMaterialIn.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FormMaterialIssue.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\FormMaterialIssue.Designer.cs">
       <DependentUpon>FormMaterialIssue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormMaterialOut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormMaterialOut.Designer.cs">
+      <DependentUpon>FormMaterialOut.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Home.cs">
       <SubType>Form</SubType>
@@ -228,8 +240,14 @@
     <EmbeddedResource Include="Forms\Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormMaterialIn.resx">
+      <DependentUpon>FormMaterialIn.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormMaterialIssue.resx">
       <DependentUpon>FormMaterialIssue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormMaterialOut.resx">
+      <DependentUpon>FormMaterialOut.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
