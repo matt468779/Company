@@ -37,6 +37,8 @@
             this.materialIssueToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.materialTransferOutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.materialTransferInToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.materialRequestToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.purchaseRequestToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -61,7 +63,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(2, 2);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(9, 3, 0, 3);
-            this.menuStrip1.Size = new System.Drawing.Size(1592, 35);
+            this.menuStrip1.Size = new System.Drawing.Size(1604, 35);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -79,7 +81,9 @@
             this.materialReceivingToolStripMenuItem,
             this.materialIssueToolStripMenuItem,
             this.materialTransferOutToolStripMenuItem,
-            this.materialTransferInToolStripMenuItem});
+            this.materialTransferInToolStripMenuItem,
+            this.materialRequestToolStripMenuItem,
+            this.purchaseRequestToolStripMenuItem});
             this.vouchersToolStripMenuItem.Name = "vouchersToolStripMenuItem";
             this.vouchersToolStripMenuItem.Size = new System.Drawing.Size(210, 30);
             this.vouchersToolStripMenuItem.Text = "Vouchers";
@@ -112,12 +116,26 @@
             this.materialTransferInToolStripMenuItem.Text = "Material Transfer In";
             this.materialTransferInToolStripMenuItem.Click += new System.EventHandler(this.materialTransferInToolStripMenuItem_Click);
             // 
+            // materialRequestToolStripMenuItem
+            // 
+            this.materialRequestToolStripMenuItem.Name = "materialRequestToolStripMenuItem";
+            this.materialRequestToolStripMenuItem.Size = new System.Drawing.Size(257, 30);
+            this.materialRequestToolStripMenuItem.Text = "Material Request";
+            this.materialRequestToolStripMenuItem.Click += new System.EventHandler(this.materialRequestToolStripMenuItem_Click);
+            // 
+            // purchaseRequestToolStripMenuItem
+            // 
+            this.purchaseRequestToolStripMenuItem.Name = "purchaseRequestToolStripMenuItem";
+            this.purchaseRequestToolStripMenuItem.Size = new System.Drawing.Size(257, 30);
+            this.purchaseRequestToolStripMenuItem.Text = "Purchase Request";
+            this.purchaseRequestToolStripMenuItem.Click += new System.EventHandler(this.purchaseRequestToolStripMenuItem_Click);
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(1596, 953);
+            this.ClientSize = new System.Drawing.Size(1608, 987);
             this.Controls.Add(this.menuStrip1);
             this.Cursor = System.Windows.Forms.Cursors.Default;
             this.IsMdiContainer = true;
@@ -146,6 +164,8 @@
         private System.Windows.Forms.ToolStripMenuItem materialIssueToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem materialTransferOutToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem materialTransferInToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem materialRequestToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem purchaseRequestToolStripMenuItem;
     }
 }
 

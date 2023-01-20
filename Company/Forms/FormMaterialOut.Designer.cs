@@ -33,19 +33,19 @@
             this.label1 = new System.Windows.Forms.Label();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.sfComboBox1 = new Syncfusion.WinForms.ListView.SfComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.comboBoxFrom = new Syncfusion.WinForms.ListView.SfComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.sfDateTimeEdit1 = new Syncfusion.WinForms.Input.SfDateTimeEdit();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
@@ -73,7 +73,7 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1399, 453);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1417, 504);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // panel1
@@ -82,7 +82,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(3, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1393, 47);
+            this.panel1.Size = new System.Drawing.Size(1411, 47);
             this.panel1.TabIndex = 0;
             // 
             // label1
@@ -108,7 +108,7 @@
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(1393, 180);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(1411, 180);
             this.tableLayoutPanel2.TabIndex = 1;
             // 
             // panel2
@@ -122,8 +122,16 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(3, 3);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(690, 174);
+            this.panel2.Size = new System.Drawing.Size(699, 174);
             this.panel2.TabIndex = 0;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(227, 137);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(288, 26);
+            this.textBox1.TabIndex = 10;
             // 
             // label7
             // 
@@ -185,10 +193,25 @@
             this.panel3.Controls.Add(this.label4);
             this.panel3.Controls.Add(this.label5);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(699, 3);
+            this.panel3.Location = new System.Drawing.Point(708, 3);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(691, 174);
+            this.panel3.Size = new System.Drawing.Size(700, 174);
             this.panel3.TabIndex = 1;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(382, 22);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(288, 26);
+            this.textBox2.TabIndex = 11;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(382, 137);
+            this.textBox3.Multiline = true;
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(288, 26);
+            this.textBox3.TabIndex = 12;
             // 
             // label6
             // 
@@ -203,7 +226,7 @@
             // 
             this.sfDateTimeEdit1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.sfDateTimeEdit1.DateTimePattern = Syncfusion.WinForms.Input.Enums.DateTimePattern.LongDate;
-            this.sfDateTimeEdit1.Location = new System.Drawing.Point(382, 68);
+            this.sfDateTimeEdit1.Location = new System.Drawing.Point(391, 68);
             this.sfDateTimeEdit1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.sfDateTimeEdit1.Name = "sfDateTimeEdit1";
             this.sfDateTimeEdit1.Size = new System.Drawing.Size(289, 48);
@@ -227,34 +250,11 @@
             this.label5.TabIndex = 5;
             this.label5.Text = "Date";
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(227, 137);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(288, 26);
-            this.textBox1.TabIndex = 10;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(382, 22);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(288, 26);
-            this.textBox2.TabIndex = 11;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(382, 137);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(288, 26);
-            this.textBox3.TabIndex = 12;
-            // 
             // FormMaterialOut
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1403, 457);
+            this.ClientSize = new System.Drawing.Size(1421, 508);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "FormMaterialOut";
             this.Style.MdiChild.IconHorizontalAlignment = System.Windows.Forms.HorizontalAlignment.Center;

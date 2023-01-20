@@ -92,5 +92,21 @@ namespace Company.Forms
             materialInForm.Text = "Material In";
             materialInForm.Show();
         }
+
+        private void materialRequestToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form MaterialRequestForm = new FormMaterialRequest();
+            MaterialRequestForm.MdiParent = this;
+            MaterialRequestForm.Text = "Material Request";
+            MaterialRequestForm.Show();
+        }
+
+        private void purchaseRequestToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form PurchaseRequestForm = new FormPurchaseRequestNote();
+            PurchaseRequestForm.MdiParent = this;
+            PurchaseRequestForm.Text = "Purchase Request";
+            PurchaseRequestForm.Show();
+        }
     }
 }
