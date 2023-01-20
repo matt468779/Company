@@ -80,7 +80,7 @@
             this.sfButton1.BackColor = System.Drawing.Color.DarkGreen;
             this.sfButton1.Font = new System.Drawing.Font("Segoe UI Semibold", 9F);
             this.sfButton1.ForeColor = System.Drawing.Color.White;
-            this.sfButton1.Location = new System.Drawing.Point(106, 4);
+            this.sfButton1.Location = new System.Drawing.Point(118, 4);
             this.sfButton1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.sfButton1.Name = "sfButton1";
             this.sfButton1.Size = new System.Drawing.Size(144, 43);
@@ -97,7 +97,7 @@
             this.panel8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel8.Location = new System.Drawing.Point(3, 524);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(1332, 57);
+            this.panel8.Size = new System.Drawing.Size(1344, 91);
             this.panel8.TabIndex = 5;
             // 
             // sfButton2
@@ -145,7 +145,7 @@
             this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel6.Location = new System.Drawing.Point(3, 3);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(660, 46);
+            this.panel6.Size = new System.Drawing.Size(666, 46);
             this.panel6.TabIndex = 0;
             // 
             // sfComboBox4
@@ -175,9 +175,9 @@
             this.panel7.Controls.Add(this.sfComboBox4);
             this.panel7.Controls.Add(this.label9);
             this.panel7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel7.Location = new System.Drawing.Point(669, 3);
+            this.panel7.Location = new System.Drawing.Point(675, 3);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(660, 46);
+            this.panel7.Size = new System.Drawing.Size(666, 46);
             this.panel7.TabIndex = 1;
             // 
             // tableLayoutPanel3
@@ -192,7 +192,7 @@
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 1;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(1332, 52);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(1344, 52);
             this.tableLayoutPanel3.TabIndex = 0;
             // 
             // panel5
@@ -201,7 +201,7 @@
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel5.Location = new System.Drawing.Point(3, 466);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(1332, 52);
+            this.panel5.Size = new System.Drawing.Size(1344, 52);
             this.panel5.TabIndex = 4;
             // 
             // sfDataGrid1
@@ -221,7 +221,7 @@
             this.sfDataGrid1.PreviewRowHeight = 42;
             this.sfDataGrid1.SerializationController = null;
             this.sfDataGrid1.ShowRowHeader = true;
-            this.sfDataGrid1.Size = new System.Drawing.Size(1332, 287);
+            this.sfDataGrid1.Size = new System.Drawing.Size(1344, 287);
             this.sfDataGrid1.Style.AddNewRowStyle.BackColor = System.Drawing.Color.MintCream;
             this.sfDataGrid1.Style.AddNewRowStyle.TextColor = System.Drawing.Color.Black;
             this.sfDataGrid1.Style.HeaderStyle.FilterIconColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
@@ -234,14 +234,14 @@
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel4.Location = new System.Drawing.Point(3, 173);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1332, 287);
+            this.panel4.Size = new System.Drawing.Size(1344, 287);
             this.panel4.TabIndex = 3;
             // 
             // sfDateTimeEdit1
             // 
             this.sfDateTimeEdit1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.sfDateTimeEdit1.DateTimePattern = Syncfusion.WinForms.Input.Enums.DateTimePattern.LongDate;
-            this.sfDateTimeEdit1.Location = new System.Drawing.Point(245, 58);
+            this.sfDateTimeEdit1.Location = new System.Drawing.Point(251, 58);
             this.sfDateTimeEdit1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.sfDateTimeEdit1.Name = "sfDateTimeEdit1";
             this.sfDateTimeEdit1.Size = new System.Drawing.Size(357, 48);
@@ -262,7 +262,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(3, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1332, 41);
+            this.panel1.Size = new System.Drawing.Size(1344, 41);
             this.panel1.TabIndex = 1;
             // 
             // label1
@@ -293,7 +293,7 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 293F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 58F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 34F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1338, 584);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1350, 618);
             this.tableLayoutPanel1.TabIndex = 1;
             // 
             // tableLayoutPanel2
@@ -309,7 +309,7 @@
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 174F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(1332, 117);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(1344, 117);
             this.tableLayoutPanel2.TabIndex = 2;
             // 
             // panel2
@@ -321,7 +321,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(3, 3);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(660, 111);
+            this.panel2.Size = new System.Drawing.Size(666, 111);
             this.panel2.TabIndex = 0;
             // 
             // sfComboBox2
@@ -376,9 +376,9 @@
             this.panel3.Controls.Add(this.label7);
             this.panel3.Controls.Add(this.label8);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(669, 3);
+            this.panel3.Location = new System.Drawing.Point(675, 3);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(660, 111);
+            this.panel3.Size = new System.Drawing.Size(666, 111);
             this.panel3.TabIndex = 1;
             // 
             // label7
@@ -403,7 +403,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1342, 588);
+            this.ClientSize = new System.Drawing.Size(1354, 622);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "FormMaterialRequest";
             this.Style.MdiChild.IconHorizontalAlignment = System.Windows.Forms.HorizontalAlignment.Center;

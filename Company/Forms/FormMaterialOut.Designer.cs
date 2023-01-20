@@ -73,7 +73,7 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1417, 504);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1429, 538);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // panel1
@@ -82,7 +82,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(3, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1411, 47);
+            this.panel1.Size = new System.Drawing.Size(1423, 47);
             this.panel1.TabIndex = 0;
             // 
             // label1
@@ -108,7 +108,7 @@
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(1411, 180);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(1423, 180);
             this.tableLayoutPanel2.TabIndex = 1;
             // 
             // panel2
@@ -122,7 +122,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(3, 3);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(699, 174);
+            this.panel2.Size = new System.Drawing.Size(705, 174);
             this.panel2.TabIndex = 0;
             // 
             // textBox1
@@ -193,9 +193,9 @@
             this.panel3.Controls.Add(this.label4);
             this.panel3.Controls.Add(this.label5);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(708, 3);
+            this.panel3.Location = new System.Drawing.Point(714, 3);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(700, 174);
+            this.panel3.Size = new System.Drawing.Size(706, 174);
             this.panel3.TabIndex = 1;
             // 
             // textBox2
@@ -226,7 +226,7 @@
             // 
             this.sfDateTimeEdit1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.sfDateTimeEdit1.DateTimePattern = Syncfusion.WinForms.Input.Enums.DateTimePattern.LongDate;
-            this.sfDateTimeEdit1.Location = new System.Drawing.Point(391, 68);
+            this.sfDateTimeEdit1.Location = new System.Drawing.Point(397, 68);
             this.sfDateTimeEdit1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.sfDateTimeEdit1.Name = "sfDateTimeEdit1";
             this.sfDateTimeEdit1.Size = new System.Drawing.Size(289, 48);
@@ -254,7 +254,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1421, 508);
+            this.ClientSize = new System.Drawing.Size(1433, 542);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "FormMaterialOut";
             this.Style.MdiChild.IconHorizontalAlignment = System.Windows.Forms.HorizontalAlignment.Center;
